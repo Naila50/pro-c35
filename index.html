@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    
+    <script src="p5.play.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+    
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDXy52o_PpJWwP7x302Y5VvmUZySoVkWkM",
+    authDomain: "my-hot-air-balloon-game-1.firebaseapp.com",
+    databaseURL: "https://my-hot-air-balloon-game-1-default-rtdb.firebaseio.com",
+    projectId: "my-hot-air-balloon-game-1",
+    storageBucket: "my-hot-air-balloon-game-1.appspot.com",
+    messagingSenderId: "615908769051",
+    appId: "1:615908769051:web:aab256abc8cf5f7e15a7be"
+  };
+ // Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+</script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
